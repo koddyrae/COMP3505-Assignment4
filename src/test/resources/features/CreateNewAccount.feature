@@ -29,4 +29,4 @@ Feature: Create a new account
 
   Examples:
       | userId      | password | firstName | lastName | email                 | phone       | address1      | city    | state | zip     | country | language | category |
-      | testuser123 | pass!123 | John      | Doe      | john.doe@example.com | 4035551234 | 123 Main St   | Calgary | AB    | T2X1A1  | Canada  | english  | FISH     |
+      | testuser123 | pass456 | John      | Doe      | john.doe@example.com | 4035551234 | 123 Main St   | Calgary | AB    | T2X1A1  | Canada  | english  | FISH     |
