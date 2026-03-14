@@ -41,7 +41,7 @@ public class ChangePasswordSteps {
         
         wait = new WebDriverWait(driver, Duration.ofSeconds(3));
 
-        driver.findElement(By.cssSelector("input[type='submit']")).click();
+        driver.findElement(By.name("signon")).click();
     }
 
     @When("the user clicks on My Account")
