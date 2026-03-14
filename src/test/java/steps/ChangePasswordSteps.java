@@ -1,5 +1,7 @@
 package steps;
 
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -36,6 +38,8 @@ public class ChangePasswordSteps {
 
         driver.findElement(By.name("password")).clear();
         driver.findElement(By.name("password")).sendKeys(password);
+        
+        wait = new WebDriverWait(driver, Duration.ofSeconds(3));
 
         driver.findElement(By.cssSelector("input[type='submit']")).click();
     }
