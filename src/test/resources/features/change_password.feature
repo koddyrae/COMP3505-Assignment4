@@ -1,7 +1,6 @@
 Feature: Change Password
 
 	Scenario Outline: Change password for existing account with JPetStore
-	
 	Given the user opens Chrome Browser
 	And the user goes to JPetStore
 	And the user logs into their account with "<username>" and "<password>"
