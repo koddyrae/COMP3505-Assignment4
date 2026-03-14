@@ -12,4 +12,4 @@ Feature: Change Password
 	
 	Examples:
 	| username | password | newPassword |
-	| testuser123 | password | newPass1 |
+	| testuser123 | pass!123 | newPass1 |

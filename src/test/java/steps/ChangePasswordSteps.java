@@ -3,6 +3,7 @@ package steps;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
@@ -10,6 +11,7 @@ import io.cucumber.java.en.When;
 public class ChangePasswordSteps {
 
     WebDriver driver;
+    WebDriverWait wait;
 
     @Given("the user opens Chrome Browser")
     public void user_opens_chrome_browser() {
